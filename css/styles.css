@@ -20,6 +20,8 @@ p, h4 {
 body {
     background: #ffffff;
     margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 hr {
@@ -30,15 +32,18 @@ hr {
     height: 0.2em;
 }
 
-footer {
-    text-align: center;
-    margin-top: 1em;
-}
 
 .header {
     display: flex;
     flex-direction: column;
     height: 90px;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    padding: 10px;
 }
 
 .topnav {
