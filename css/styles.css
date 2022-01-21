@@ -66,11 +66,25 @@ footer {
     z-index: 2;
 }
 
+#activeInline {
+    background-color: #c8d8e4;
+    color: black;
+    font-weight: bolder;
+}
+
+#activeDrop {
+    background-color: #c8d8e4;
+    color: black;
+    font-weight: bolder;
+}
+
 /* anpassning av logon i menyn */
 #logobutton {
     width: 5em;
     height: auto;
     margin: -7px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 /* Utseende på kontaktformulär*/
@@ -260,6 +274,7 @@ legend {
         background-color: #c8d8e4;
         color: black;
     }
+
     /* Placerar presentationerna bredvid varandra istället för ovanpå */
     .profilebox {
         display: flex;
