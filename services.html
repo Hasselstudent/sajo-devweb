@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>SAJO WebDev - Services</title>
+</head>
+
+<body>
+    <!--Navigationsmeny-->
+    <div class="topnav">
+        <a href="index.html" class="homebutton"><img id="logobutton" src="images/logosmall.png" alt="logosmall"></a>
+        <div class="dropmenu">
+            <!--Navigationsmeny, dropdown, för smartphone-->
+            <div id="myDropdownLinks">
+                <a href="services.html">Våra tjänster</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="priceplan.html">Priser</a>
+                <a href="about.html">Om oss</a>
+            </div>
+            <!--Hamburgar-ikon för navigation-->
+            <div class="hamburgarknapp">
+                <a id="hamburgare" href="javascript:void(0);" class="icon" onclick="toggleNavLinks()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <!--Navigationsmeny, inline, för desktops-->
+        <div class="inlinemenu">
+            <div id="myLinks">
+                <a href="services.html">Våra tjänster</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="priceplan.html">Priser</a>
+                <a href="about.html">Om oss</a>
+            </div>
+        </div>
+    </div>
+
+    <!--bild mellan meny och innehåll-->
+    <div class="headerpic"></div>
+    <br>
+
+    <div>Denna sida är under konstruktion...</div>
+
+    <hr>
+    
+    <div>
+        <footer>Copyright © 2022
+            <address>
+                SaJo WebDev <br>
+            </address>
+        </footer>
+    </div>
+    <script>
+        function toggleNavLinks() {
+            var x = document.getElementById("myDropdownLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+</html>
