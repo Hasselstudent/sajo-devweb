@@ -97,6 +97,8 @@ input {
     border: 1px solid black;
     border-radius: 5px;
     padding: 5px 5px 5px 30px;
+    text-align: right;
+    opacity: 0.8;
 }
 
 textarea {
