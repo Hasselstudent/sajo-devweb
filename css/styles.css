@@ -70,6 +70,7 @@ footer {
     background-color: #c8d8e4;
     color: black;
     font-weight: bolder;
+    border-radius: 10px;
 }
 
 #activeDrop {
@@ -267,12 +268,13 @@ legend {
         font-family: 'Verdana', Arial, sans-serif;
         font-size: 14px;
         display: inline;
+        margin: 5px;
     }
 
     /* Effekt för menyitems vid mouseover */
     .topnav a:hover {
-        background-color: #c8d8e4;
-        color: black;
+        font-weight: bolder;
+        border-radius: 10px;
     }
 
     /* Placerar presentationerna bredvid varandra istället för ovanpå */
