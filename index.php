@@ -1,4 +1,4 @@
-<?php include("header.php"); ?>
+<?php include("includes/header.php"); ?>
 <!--Sektion för erbjudande och kontaktformulär-->
 <div class="contactbox">
     <h1>Få en gratis konsultation</h1>
@@ -55,4 +55,4 @@
         </div>
     </div>
 </div>
-<?php include("footer.php"); ?>
+<?php include("includes/footer.php"); ?>
