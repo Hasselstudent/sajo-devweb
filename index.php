@@ -12,39 +12,11 @@
 
 <body>
     <div class="header">
-    <!--Navigationsmeny-->
-    <nav>
-    <div class="topnav">
-        <a href="index.html" class="homebutton"><img id="logobutton" src="images/logosmall.png" alt="logosmall"></a>
-        <div class="dropmenu">
-            <!--Navigationsmeny, dropdown, för smartphone-->
-            <div id="myDropdownLinks">
-                <a href="services.html">Våra tjänster</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="priceplan.html">Priser</a>
-                <a href="about.html">Om oss</a>
-            </div>
-            <!--Hamburgar-ikon för navigation-->
-            <div class="hamburgarknapp">
-                <a id="hamburgare" href="javascript:void(0);" class="icon" onclick="toggleNavLinks()">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
-        </div>
-        <!--Navigationsmeny, inline, för desktops-->
-        <div class="inlinemenu">
-            <div id="myLinks">
-                <a href="services.html">Våra tjänster</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="priceplan.html">Priser</a>
-                <a href="about.html">Om oss</a>
-            </div>
-        </div>
+        <!--Navigationsmeny-->
+        <?php include("topnav.php") ?>
+        <!--bild mellan meny och innehåll-->
+        <div class="headerpic"></div>
     </div>
-</nav>
-    <!--bild mellan meny och innehåll-->
-    <div class="headerpic"></div>
-</div>
     <br>
     <hr>
     <!--Sektion för erbjudande och kontaktformulär-->
@@ -60,7 +32,7 @@
                     <br>
                     <br>
                     <label for="email">E-postadress:</label>
-                    <input type="text" name="email" id="email" placeholder="johndoe@whatnot.com"> 
+                    <input type="text" name="email" id="email" placeholder="johndoe@whatnot.com">
                     <br>
                     <br>
                     <label for="phone">Telefonnummer: </label>
